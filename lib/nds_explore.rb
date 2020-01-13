@@ -14,7 +14,7 @@ def print_first_directors_movie_titles
    # pp nds[row_index][:name]
     row_index += 1
     column_index = 0
-    while column_index < nds[row_index] do 
+    while column_index < nds[row_index].length do 
       pp nds[row_index][:movies]
       column_index += 1 
     end
